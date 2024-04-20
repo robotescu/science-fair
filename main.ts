@@ -1,6 +1,6 @@
 OLED.init(128, 64)
 ESP8266_IoT.initWIFI(SerialPin.P8, SerialPin.P12, BaudRate.BaudRate115200)
-ESP8266_IoT.connectWifi("Robotescu", "RobotescuWiFi1234")
+ESP8266_IoT.connectWifi("Etaj", "1234567809")
 OLED.writeStringNewLine("Conectat la internet")
 basic.showIcon(IconNames.Yes)
 basic.pause(2000)
